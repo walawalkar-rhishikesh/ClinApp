@@ -1,0 +1,23 @@
+{
+  "name": "clinic_management_system",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://r-walawalkar@bitbucket.org/r-walawalkar/clinic_management_system_homepage.git"
+  },
+  "author": "Abel Philip, Aishwarya Parab, Rhishikesh Walawalkar, Rupesh Alasundkar",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/r-walawalkar/clinic_management_system_homepage#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "fa-icons": "^0.1.9",
+    "font-awesome": "^4.7.0",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.4.1"
+  }
+}

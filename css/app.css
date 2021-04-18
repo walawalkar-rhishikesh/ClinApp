@@ -1,0 +1,449 @@
+body{
+    background-color: #efefef;
+}
+.color-carbon{
+    color: #a9a9a9 !important
+}
+.color-neutral{
+    color: #efefef
+}
+.color-watermelon{
+    color: #ff3b3f
+}
+.nav-link:hover{
+    color: #ff3b3f !important
+}
+.bg-header-color{
+    background: #ffffff;;
+}
+.bg-app-primary {
+    background:#464648;
+}
+.app-text-color{
+    color: silver !important
+}
+.app-brand-text{
+    color: #ff3b3f !important
+}
+.btn-outline-carbon{
+    border: 1px solid silver;
+    color: silver
+}
+.btn-outline-carbon:hover{
+    color: #ffff !important;
+    background-color: #ff3b3f !important;
+}
+
+.navbar-toggler { 
+    border-color: #a9a9a9; 
+} 
+  
+.navbar-toggler-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(169,169,169, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+/* CSS FOR AISHWARYA */
+.img-size {
+    /* height: 30pt; */
+    text-align: center; 
+    margin:auto;
+}
+.carousal-para{
+    font-size:15pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+}
+#myCarousel{
+    /* height: 450px; */
+    background-color:  #e9ecef; 
+    text-align: center;
+    margin:auto;
+    padding: 20px 0px;
+} 
+.carousal-container{
+    background-color:  #ffffff; 
+    border-radius: 25px;
+    height: 450px;
+    border: 1px solid white;
+    width:80%;
+    text-align: center; 
+    margin:auto;
+    padding: 40px 0px;
+}
+.rounded-circle.carousal-img{
+    width:200px
+
+}
+.card-style {
+    font-size: 40pt;
+    padding-top: 15pt;
+    margin: auto;
+    color: #ff3b3f;
+}
+
+.card-height {
+    height: 130pt;
+    padding: 5px
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.card-div{
+    border:10pt; 
+    margin:auto; 
+    background-color:	#F2F2F2; 
+    padding:20pt;
+}
+.card-title-css{
+    margin:auto;
+    text-align: center !important;
+}
+
+/* CSS FOR RHISHIKESH */
+
+.row-about{
+    margin:auto; 
+    background-color:#ffffff; 
+    padding:30pt;
+    text-align: center !important;
+}
+.notification-container{
+    position: absolute;z-index: 1;top: 0;right: 0;margin-top: 70px;
+}
+
+/* CSS FOR ABEL */
+
+.logo-image{
+    height:40px;
+    width: 100px;
+}
+.our-team{
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    border-radius: 50%;
+    size:50px;
+}
+.our-team:hover{
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.our-team .pic{
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    size:50px;
+}
+.our-team .pic:before,
+.our-team .pic:after{
+    content: "";
+    width: 200%;
+    height: 80%;
+    background: rgba(38,37,37,0.8);
+    position: absolute;
+    top: -100%;
+    left: -4%;
+    transform: rotate(45deg);
+    transition: all 0.5s ease 0s;
+}
+.our-team .pic:after{
+    background: rgba(8,75,77,0.8);
+    top: auto;
+    left: auto;
+    bottom: -100%;
+    right: -4%;
+}
+.our-team:hover .pic:before{ top: 0; }
+.our-team:hover .pic:after{ bottom: 0; }
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+}
+.our-team .social{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 45%;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.5s ease 0.3s;
+}
+.our-team:hover .social{ opacity: 1; }
+.our-team .social li{ display: inline-block; }
+.our-team .social li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.our-team .social li a:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #db162f;
+    border-radius: 0 20px 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+.our-team .social li a:hover:after{ transform: rotate(180deg); }
+.our-team .team-content{ padding: 20px; }
+.our-team .title{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #047168;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+.our-team .post{
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #707070;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+#team-container{
+background-color:white;
+text-align: center;
+}
+#team-container-title{
+    padding:3%
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* CSS FOR RUPESH */
+
+.jumbotron {
+    padding: 4rem 2rem;
+    display:"right" ;
+    height: 272px;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+    padding-top: 68px;}
+
+.jumbotron p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #ff3b3f;
+}
+
+.row.quotes{
+    background-color: #F2F2F2;
+}
+.clock-gif {
+    background-image: url(https://media.giphy.com/media/fnPmNsi3CfU4w/giphy.gif);
+    background-size: cover;
+    width: 272px;
+    margin: 0 auto;
+    height: 272px;
+}
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+#plans,
+#plans ul,
+#plans ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#price-plans:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+#price-plans {
+    zoom: 1;
+}
+#price-plans {
+    max-width: 69em;
+    margin: 0 auto;
+}
+#price-plans #plans .plan {
+    background: #fff;
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.planContainer .title h2 {
+    font-size: 2.125em;
+    font-weight: 300;
+    color: #212529;
+    margin: 0;
+    padding: .6em 0;
+}
+.planContainer .title h2.bestPlanTitle {
+    background: #F9F9F9;
+    background: -webkit-linear-gradient(top, #475975, #364761);
+    background: -moz-linear-gradient(top, #475975, #364761);
+    background: -o-linear-gradient(top, #475975, #364761);
+    background: -ms-linear-gradient(top, #475975, #364761);
+    background: linear-gradient(top, #475975, #364761);
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+.planContainer .price p {
+    background: #3e4f6a;
+    background: -webkit-linear-gradient(top, #475975, #364761);
+    background: -moz-linear-gradient(top, #475975, #364761);
+    background: -o-linear-gradient(top, #475975, #364761);
+    background: -ms-linear-gradient(top, #475975, #364761);
+    background: linear-gradient(top, #475975, #364761);
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    height: 2.6em;
+    line-height: 2.6em;
+    margin: 0 0 1em;
+}
+.planContainer .price p.bestPlanPrice {
+    background: #f7814d;
+}
+.planContainer .price p span {
+    color: #6c757d;
+}
+.planContainer .options {
+    margin-top: 10em;
+}
+.planContainer .options li {
+    font-weight: 700;
+    color: #212529;
+    line-height: 2.5;
+}
+.planContainer .options li span {
+    font-weight: 400;
+    color: #979797;
+}
+.planContainer .button a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #212529;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 2.8em;
+    border: 2px solid white;
+    display: inline-block;
+    width: 80%;
+    height: 2.8em;
+    border-radius: 4px;
+    margin: 1.5em 0 1.8em;
+}
+.planContainer .button a.bestPlanButton {
+    color: #fff;
+    background: #f7814d;
+    border: 2px solid #f7814d;
+}
+#credits {
+    text-align: center;
+    font-size: .8em;
+    font-style: italic;
+    color: #777;
+}
+#credits a {
+    color: #ff3b3f;
+}
+#credits a:hover {
+    text-decoration: none;
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #price-plans #plans .plan {
+        width: 49%;
+        margin: 0 2% 20px 0;
+    }
+    #price-plans #plans>li:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #price-plans #plans .plan {
+        width: 49%;
+        margin: 0 2% 20px 0;
+    }
+
+    #price-plans #plans>li:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+@media screen and (min-width: 1025px) {
+    #price-plans {
+        margin: 2em auto;
+    }
+
+    #price-plans #plans .plan {
+        width: 24%;
+        margin: 0 1.33% 20px 0;
+        -webkit-transition: all .25s;
+        -moz-transition: all .25s;
+        -ms-transition: all .25s;
+        -o-transition: all .25s;
+        transition: all .25s;
+    }
+
+    #price-plans #plans>li:last-child {
+        margin-right: 0;
+    }
+
+    #price-plans #plans .plan:hover {
+        -webkit-transform: scale(1.04);
+        -moz-transform: scale(1.04);
+        -ms-transform: scale(1.04);
+        -o-transform: scale(1.04);
+        transform: scale(1.04);
+    }
+
+    .planContainer .button a {
+        -webkit-transition: all .25s;
+        -moz-transition: all .25s;
+        -ms-transition: all .25s;
+        -o-transition: all .25s;
+        transition: all .25s;
+    }
+
+    .planContainer .button a:hover {
+        background: #fff;
+        color: #ff3b3f;
+        /* display: block; */
+    }
+
+    .planContainer .button a.bestPlanButton:hover {
+        background: #ff9c70;
+        border: 2px solid #ff9c70;
+    }
+
+    .planContainer:hover {
+        background: #e9ecef;
+    }
+    .pricing-title{
+
+        text-align: center;
+        padding: 0px;
+
+    }
+}
